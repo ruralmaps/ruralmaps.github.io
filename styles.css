@@ -120,9 +120,6 @@ h2 {
     margin: 10px 0px 0px 10px;
     padding: 0 10px;
     font-size: 4rem;
-    border: solid 1px rgb(158, 158, 158);
-
-
 }
 
 .h1-style-list {
@@ -130,7 +127,6 @@ h2 {
     padding: 0 10px;
     list-style-type: none;
     font-size: 1rem;    
-
 }
 
 .h2-style-ex {
@@ -151,11 +147,36 @@ h2 {
     margin: 10px 0px 0px 10px;
     padding: 0 10px;
     font-size: 1rem;
-    
-
 }
 
 .p-style-list {
+    margin: 0 10px;
+    padding: 0 10px;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.imagery-container {
+    border: solid 1px rgb(158, 158, 158);
+    margin: 10px 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 35%;
+    height: 35%;
+    margin: 10px 100px 10px 10px;
+}
+
+.settings {
+    margin: 0 10px;
+    padding: 0 10px;
+    font-size: 1.5rem;
+    
+}
+
+.settings-list {
     margin: 0 10px;
     padding: 0 10px;
     list-style-type: none;
