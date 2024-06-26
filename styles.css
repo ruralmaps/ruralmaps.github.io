@@ -19,14 +19,19 @@ time, mark, audio, video {
 }
 
 @font-face {
-    font-family: 'crimson-pro';
+    font-family: 'Crimson Pro';
     src: url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 }
 
 @font-face {
-    font-family: 'open-sans';
+    font-family: 'Open Sans';
     src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap")
 }
+
+body {
+    font-family: 'Crimson Pro';
+}
+
 .header {
     color: #000;
     font-size: 4rem;
@@ -77,6 +82,7 @@ h2 {
 .color-label, .color-hex {
     margin: 5px;
     text-align: center;
+    font-family: 'Crimson Pro';
 
 }
 
@@ -92,7 +98,7 @@ h2 {
     position: relative;
     padding: 10px 10px;
     line-height: 2em;
-    font-family: 'crimson-pro';
+    font-family: 'Crimson Pro';
 }
 
 .open-sans {
@@ -101,7 +107,7 @@ h2 {
     padding: 10px 10px;
     margin: 0px 100px;
     line-height: 2em;
-    font-family: 'open-sans';
+    font-family: 'Open Sans';
     
 }
 
@@ -126,7 +132,8 @@ h2 {
     margin: 0px 0px 0px 10px;
     padding: 0 10px;
     list-style-type: none;
-    font-size: 1rem;    
+    font-size: 1rem;
+    font-family: 'Crimson Pro';    
 }
 
 .h2-style-ex {
@@ -141,12 +148,14 @@ h2 {
     padding: 0 10px;
     list-style-type: none;
     font-size: 1rem;
+    font-family: 'Crimson Pro';
 }
 
 .p-style-ex {
     margin: 10px 0px 0px 10px;
     padding: 0 10px;
     font-size: 1rem;
+    font-family: 'Open Sans';
 }
 
 .p-style-list {
@@ -154,6 +163,8 @@ h2 {
     padding: 0 10px;
     list-style-type: none;
     font-size: 1rem;
+    font-family: 'Crimson Pro';
+    
 }
 
 .imagery-container {
@@ -173,6 +184,7 @@ img {
     margin: 0 10px;
     padding: 0 10px;
     font-size: 1.5rem;
+    font-family: 'Crimson Pro';
     
 }
 
@@ -181,4 +193,5 @@ img {
     padding: 0 10px;
     list-style-type: none;
     font-size: 1rem;
+    font-family: 'Crimson Pro';
 }
